@@ -1,0 +1,165 @@
+{
+  "@amazon-devices/kepler-media-controls": {
+    "name": "@amazon-devices/kepler-media-controls",
+    "path": "/Users/latasin/Desktop/sampleAppsCodes/vegadashplayer/node_modules/@amazon-devices/kepler-media-controls",
+    "autolink": {
+      "KeplerMediaControlsServerTM": {
+        "libraryName": "libkeplerscript-media-controls-1.so",
+        "linkDynamic": true,
+        "components": [],
+        "turbomodules": [
+          "KeplerMediaControlsServerTM"
+        ]
+      },
+      "KeplerMediaControlsClientTM": {
+        "libraryName": "libkeplerscript-media-controls-1.so",
+        "linkDynamic": true,
+        "components": [],
+        "turbomodules": [
+          "KeplerMediaControlsClientTM"
+        ]
+      }
+    },
+    "manifest": {
+      "schema": 1,
+      "fileSets": {
+        "native": [
+          {
+            "arch": "aarch64",
+            "variant": "release",
+            "directoryPath": "aarch64-release"
+          },
+          {
+            "arch": "armv7",
+            "variant": "release",
+            "directoryPath": "armv7-release"
+          },
+          {
+            "arch": "x86_64",
+            "variant": "release",
+            "directoryPath": "x86_64-release"
+          },
+          {
+            "arch": "aarch64",
+            "variant": "debug",
+            "directoryPath": "aarch64-debug"
+          },
+          {
+            "arch": "armv7",
+            "variant": "debug",
+            "directoryPath": "armv7-debug"
+          },
+          {
+            "arch": "x86_64",
+            "variant": "debug",
+            "directoryPath": "x86_64-debug"
+          }
+        ]
+      }
+    }
+  },
+  "@amazon-devices/keplermediadescriptor": {
+    "name": "@amazon-devices/keplermediadescriptor",
+    "path": "/Users/latasin/Desktop/sampleAppsCodes/vegadashplayer/node_modules/@amazon-devices/keplermediadescriptor",
+    "autolink": {
+      "keplermediadescriptor": {
+        "libraryName": "libKeplerMediaDescriptor.so",
+        "linkDynamic": true,
+        "components": [],
+        "turbomodules": [
+          "KeplerMediaDescriptorTurboModule"
+        ]
+      }
+    },
+    "manifest": {
+      "schema": 1,
+      "fileSets": {
+        "native": [
+          {
+            "arch": "armv7",
+            "variant": "release",
+            "directoryPath": "armv7-release"
+          },
+          {
+            "arch": "x86_64",
+            "variant": "release",
+            "directoryPath": "x86_64-release"
+          },
+          {
+            "arch": "aarch64",
+            "variant": "release",
+            "directoryPath": "aarch64-release"
+          },
+          {
+            "arch": "armv7",
+            "variant": "debug",
+            "directoryPath": "armv7-debug"
+          },
+          {
+            "arch": "x86_64",
+            "variant": "debug",
+            "directoryPath": "x86_64-debug"
+          },
+          {
+            "arch": "aarch64",
+            "variant": "debug",
+            "directoryPath": "aarch64-debug"
+          }
+        ]
+      }
+    }
+  },
+  "@amazon-devices/react-native-w3cmedia": {
+    "name": "@amazon-devices/react-native-w3cmedia",
+    "path": "/Users/latasin/Desktop/sampleAppsCodes/vegadashplayer/node_modules/@amazon-devices/react-native-w3cmedia",
+    "autolink": {
+      "AmazonW3CMediaFCCLibStable": {
+        "uiComponentName": "/com.amazon.w3cmedia.comp",
+        "linkDynamic": true,
+        "components": [
+          "KeplerShareableSurfaceViewStable",
+          "KeplerCaptionsViewStable",
+          "KeplerVideoSurfaceViewStable"
+        ],
+        "provider": ""
+      }
+    },
+    "manifest": {
+      "schema": 1,
+      "fileSets": {
+        "native": [
+          {
+            "arch": "aarch64",
+            "variant": "release",
+            "directoryPath": "aarch64-release"
+          },
+          {
+            "arch": "x86_64",
+            "variant": "release",
+            "directoryPath": "x86_64-release"
+          },
+          {
+            "arch": "armv7",
+            "variant": "release",
+            "directoryPath": "armv7-release"
+          },
+          {
+            "arch": "aarch64",
+            "variant": "debug",
+            "directoryPath": "aarch64-debug"
+          },
+          {
+            "arch": "x86_64",
+            "variant": "debug",
+            "directoryPath": "x86_64-debug"
+          },
+          {
+            "arch": "armv7",
+            "variant": "debug",
+            "directoryPath": "armv7-debug"
+          }
+        ]
+      }
+    }
+  }
+}

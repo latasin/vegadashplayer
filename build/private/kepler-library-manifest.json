@@ -1,0 +1,57 @@
+{
+  "needs": [
+    "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+    "/com.amazon.kepler.keplermediadescriptor_1@IKeplermediadescriptor_1",
+    "/com.amazon.kepler.keplerscript_2@IKeplerScript_0",
+    "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1"
+  ],
+  "wants": [],
+  "privileges": [],
+  "keplerModuleMap": {
+    "@amazon-devices/kepler-media-controls": {
+      "1.0.9": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.10": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.11": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.12": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.13": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.14": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.15": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.16": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0",
+      "1.0.17": "/com.amazon.kepler.kepler_media_controls_1@IKeplerMediaControls_0"
+    },
+    "@amazon-devices/keplermediadescriptor": {
+      "1.1.5": "/com.amazon.kepler.keplermediadescriptor_1@IKeplermediadescriptor_1",
+      "1.1.6": "/com.amazon.kepler.keplermediadescriptor_1@IKeplermediadescriptor_1",
+      "1.1.7": "/com.amazon.kepler.keplermediadescriptor_1@IKeplermediadescriptor_1",
+      "1.1.8": "/com.amazon.kepler.keplermediadescriptor_1@IKeplermediadescriptor_1"
+    },
+    "@amazon-devices/react-native-kepler": {
+      "2.0.0": "/com.amazon.kepler.keplerscript_2@IKeplerScript_0",
+      "2.0.1756402533": "/com.amazon.kepler.keplerscript_2@IKeplerScript_0",
+      "2.0.1758654000": "/com.amazon.kepler.keplerscript_2@IKeplerScript_0",
+      "2.0.1758683737": "/com.amazon.kepler.keplerscript_2@IKeplerScript_0"
+    },
+    "@amazon-devices/react-native-w3cmedia": {
+      "2.1.68": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.69": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.70": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.71": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.72": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.73": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.74": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.75": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.76": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.77": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.78": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.79": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.80": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.81": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.82": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.83": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.84": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.85": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.86": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1",
+      "2.1.87": "/com.amazon.kepler.w3cmedia_2@IW3cmedia_1"
+    }
+  }
+}

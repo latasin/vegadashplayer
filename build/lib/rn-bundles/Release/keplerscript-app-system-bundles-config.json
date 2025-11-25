@@ -1,0 +1,10 @@
+{
+  "systemBundles": {
+    "common": [
+      "index.amzn__react-native-kepler-2.hermes.bundle",
+      "index.amzn__react-native-w3cmedia-2.hermes.bundle",
+      "amzn__kepler-media-controls.hermes.bundle",
+      "index.amzn__keplermediadescriptor-1.hermes.bundle"
+    ]
+  }
+}
