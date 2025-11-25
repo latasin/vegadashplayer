@@ -48,6 +48,16 @@ id = "com.amazon.audio.control"
 [[wants.service]]
 id = "com.amazon.audio.system"
 
+[[wants.service]]
+id = "com.amazon.drm.key" # Required for DRM video playback
+
+[[wants.service]]
+id = "com.amazon.drm.crypto" # Required for DRM video playback
+
 [offers]
 [[offers.service]]
 id = "com.amazon.gipc.uuid.*"
+
+[needs]
+[[needs.privilege]]
+id = "com.amazon.privilege.security.file-sharing" # Required for DRM video playback
